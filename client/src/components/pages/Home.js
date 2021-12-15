@@ -34,7 +34,7 @@ const Home = () => {
                 </Row>
                 <Row className="justify-content-end">
                     <Col xs="auto">
-                    <LinkContainer to="/follow-up">
+                        <LinkContainer to="/follow-up">
                             <Button variant="danger">Click Here</Button>
                         </LinkContainer>
                     </Col>
