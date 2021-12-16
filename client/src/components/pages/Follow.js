@@ -1,3 +1,5 @@
+import Button from 'react-bootstrap/Button';
+
 const Follow = () => {
     return (
         <div>
@@ -15,7 +17,7 @@ const Follow = () => {
                 <option value="">Leah Samuels</option>
             </select>
             <div>
-                <button>Next</button>
+            <Button variant="secondary">Next</Button>
             </div>
         </div>
     )
